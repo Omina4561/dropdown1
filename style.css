@@ -1,0 +1,174 @@
+body{
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 64px;
+    background-color: #151728;
+    display: flex;
+    align-items: center;
+    gap: 750px;
+    justify-content: center;
+
+}
+.text_1{
+    display: flex;
+    gap: 40px;
+    color: white;
+
+}
+.text_1 h1{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.sign_up{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.sign_up a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sign_up button{
+    color: #333333;
+    background-color: #BFAFF2;
+    font-size: 18px;
+    font-weight: 400;
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+}
+.drop{
+    display: none;
+    background-color: #232028;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+  
+
+
+}
+.text:hover .drop{
+   display: block;
+}
+.drop1, .drop2, .drop3{
+    width: 120px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+justify-self: center;
+
+    
+    
+}
+.text{
+    position: absolute;
+    top: 24px;
+    left: 350px;
+}
+main{
+    background-color: #1a1c2f;
+    display: flex;
+    justify-content: space-around;
+    height: 750px;
+    align-items: center;
+}
+.card{
+    width: 325px;
+    height: 532px;
+    position: relative;
+    align-items: end;
+    display: flex;
+   
+
+}
+
+.text2{
+   width: 293px;
+   height: 148px;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+    background-color: #232028;
+    
+    color: white;
+   
+}
+.box{
+    width: 325px;
+    height: 240px;
+    background-color: #232028;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2 h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+.text2 p{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.yuji{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+   
+}
+.megumi{
+    position: absolute;
+    top: 15px;
+    left: 38px;
+}
+.nobara{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+}
+.Gojo{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+footer{
+    height: 64px;
+    color: white;
+    background-color: #151728;
+    display: flex;
+    align-items: center;
+    gap: 900px;
+    justify-content: center;
+}
+footer h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer nav{
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+.drop1:hover, .drop2:hover, .drop3:hover{
+    background-color: #BFAFF2;
+}
